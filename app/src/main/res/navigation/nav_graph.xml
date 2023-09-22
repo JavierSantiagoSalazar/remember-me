@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/onBoarding">
+
+    <fragment
+        android:id="@+id/onBoarding"
+        android:name="com.example.rememberme.OnBoarding"
+        android:label="OnBoarding" />
+</navigation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Common-->
+    <dimen name="common_padding_min">8dp</dimen>
+    <dimen name="common_padding_default">16dp</dimen>
+    <dimen name="common_padding_middle">24dp</dimen>
+    <dimen name="common_padding_big">32dp</dimen>
+    <dimen name="common_padding_extra">48dp</dimen>
+
+    <!--OnBoarding-->
+    <dimen name="on_boarding_tab_max_width">30dp</dimen>
+    <dimen name="on_boarding_tab_dots_padding">15dp</dimen>
+
+</resources>

@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">RememberMe</string>
+
+    <!--Descriptions-->
+    <string name="on_boarding_description_item_image">OnBoarding image</string>
+    <string name="on_boarding_arrow_forward">Arrow forward</string>
+    <string name="on_boarding_arrow_back">Arrow back</string>
+
+    <string name="on_boarding_continue_button_text">Continue</string>
+    <string name="on_boarding_text_swipe">Swipe</string>
+    <string name="on_boarding_title_welcome">Welcome to RememberMe</string>
+    <string name="on_boarding_description_welcome">Your application to create and manage your daily reminders in a very easy and simple way.</string>
+    <string name="on_boarding_title_enjoy">Enjoy!</string>
+    <string name="on_boarding_description_enjoy">This application has been developed by a single person, if you want to collaborate with your feedback, it will be totally welcome.</string>
 </resources>

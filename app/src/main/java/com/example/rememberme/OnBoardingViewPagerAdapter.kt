@@ -8,7 +8,7 @@ import com.example.rememberme.databinding.BoardItemBinding
 
 class OnBoardingViewPagerAdapter(
     private val boardList: List<Board>,
-    private var listener: ViewPagerOnClickListener
+    private val listener: () -> Unit
 ) : RecyclerView.Adapter<OnBoardingViewPagerAdapter.BoardViewHolder>() {
 
     inner class BoardViewHolder(private val binding: BoardItemBinding) :
@@ -18,7 +18,7 @@ class OnBoardingViewPagerAdapter(
                 onBoardingImage.setImageResource(board.image)
                 tvTittle.text = board.title
                 tvMessage.text = board.description
-                btnContinue.setOnClickListener { listener.onClick() }
+                btnContinue.setOnClickListener { listener() }
 
                 if (adapterPosition == 0) {
                     arrowBack.visibility = View.INVISIBLE

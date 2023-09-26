@@ -6,10 +6,21 @@
     <string name="on_boarding_arrow_forward">Arrow forward</string>
     <string name="on_boarding_arrow_back">Arrow back</string>
 
+    <!--OnBoarding View-->
     <string name="on_boarding_continue_button_text">Continue</string>
     <string name="on_boarding_text_swipe">Swipe</string>
     <string name="on_boarding_title_welcome">Welcome to RememberMe</string>
     <string name="on_boarding_description_welcome">Your application to create and manage your daily reminders in a very easy and simple way.</string>
     <string name="on_boarding_title_enjoy">Enjoy!</string>
     <string name="on_boarding_description_enjoy">This application has been developed by a single person, if you want to collaborate with your feedback, it will be totally welcome.</string>
+
+    <!--Menu View-->
+    <string name="menu_nav_bar_home">Home</string>
+    <string name="menu_nav_bar_reminder">Reminders</string>
+    <string name="menu_nav_bar_settings">Settings</string>
+    <string name="menu_text_message">Welcome!</string>
+    <string name="menu_text_message_productive">I hope you are having a very productive day.</string>
+    <string name="menu_text_message_reminders">Remember that you can review or schedule your reminders or tasks from our Reminders menu.</string>
+    <string name="menu_text_message_today_phrase">Today\'s phrase of the day is:</string>
+
 </resources>

@@ -1,9 +1,10 @@
-package com.example.rememberme
+package com.example.rememberme.onBoarding
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.rememberme.Board
 import com.example.rememberme.databinding.BoardItemBinding
 
 class OnBoardingViewPagerAdapter(

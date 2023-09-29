@@ -1,5 +1,9 @@
 <resources>
+    <!--Global-->
     <string name="app_name">RememberMe</string>
+    <string name="menu_nav_bar_home">Home</string>
+    <string name="menu_nav_bar_reminder">Reminders</string>
+    <string name="menu_nav_bar_settings">Settings</string>
 
     <!--Descriptions-->
     <string name="on_boarding_description_item_image">OnBoarding image</string>
@@ -15,12 +19,22 @@
     <string name="on_boarding_description_enjoy">This application has been developed by a single person, if you want to collaborate with your feedback, it will be totally welcome.</string>
 
     <!--Menu View-->
-    <string name="menu_nav_bar_home">Home</string>
-    <string name="menu_nav_bar_reminder">Reminders</string>
-    <string name="menu_nav_bar_settings">Settings</string>
+
     <string name="menu_text_message">Welcome!</string>
     <string name="menu_text_message_productive">I hope you are having a very productive day.</string>
     <string name="menu_text_message_reminders">Remember that you can review or schedule your reminders or tasks from our Reminders menu.</string>
     <string name="menu_text_message_today_phrase">Today\'s phrase of the day is:</string>
+
+    <!--Reminders View-->
+    <string name="reminders_text_your_reminders">Your reminders</string>
+
+    <!--Reminder Item View-->
+    <string name="reminder_item_text_reminder">Reminder:</string>
+    <string name="reminder_item_text_hour">Hour:</string>
+    <string name="reminder_item_text_alarm">Alarm:</string>
+    <string name="reminder_item_text_date">Date:</string>
+    <string name="reminder_item_text_importance">Importance:</string>
+    <string name="reminder_item_edit_button_description">Button to edit the reminder</string>
+    <string name="reminder_item_delete_button_description">Button to delete the reminder</string>
 
 </resources>

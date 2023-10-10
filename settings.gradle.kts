@@ -15,4 +15,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "RememberMe"
 include(":app")
- 
+include(":domain")
+include(":data")
+include(":usecases")

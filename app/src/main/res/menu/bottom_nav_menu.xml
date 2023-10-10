@@ -2,17 +2,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/home_dest"
+        android:id="@+id/on_boarding_dest"
         android:icon="@drawable/ic_home"
         android:title="@string/menu_nav_bar_home"
         app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/movie_dest"
+        android:id="@+id/reminders_dest"
         android:icon="@drawable/ic_reminder"
         android:title="@string/menu_nav_bar_reminder"
         app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/tv_show_dest"
+        android:id="@+id/settings_dest"
         android:icon="@drawable/ic_settings"
         android:title="@string/menu_nav_bar_settings"
         app:showAsAction="ifRoom" />

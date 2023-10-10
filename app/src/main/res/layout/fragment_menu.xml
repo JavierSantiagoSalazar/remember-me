@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MenuFragment">
+    tools:context=".menu.MenuFragment">
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:id="@+id/lyHeaders"
@@ -89,7 +89,6 @@
         app:cardCornerRadius="8dp"
         app:contentPadding="@dimen/common_padding_default"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/bottomNavigationView"
         app:layout_constraintEnd_toEndOf="@id/lyMessages"
         app:layout_constraintStart_toStartOf="@id/lyMessages"
         app:layout_constraintTop_toBottomOf="@id/lyMessages">
@@ -150,18 +149,5 @@
         </androidx.appcompat.widget.LinearLayoutCompat>
 
     </androidx.cardview.widget.CardView>
-
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottomNavigationView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/black"
-        app:itemIconTint="@drawable/bottom_navigation_selector"
-        app:itemRippleColor="@color/white"
-        app:itemTextColor="@drawable/bottom_navigation_selector"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/bottom_nav_menu" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

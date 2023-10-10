@@ -1,11 +1,11 @@
-package com.example.rememberme
+package com.example.rememberme.onBoarding
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.View
-import androidx.navigation.NavDirections
-import androidx.navigation.fragment.NavHostFragment
+import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
+import com.example.rememberme.R
+import com.example.rememberme.common.setBottomNavigationVisibility
 import com.example.rememberme.databinding.FragmentOnBoardingBinding
 import com.google.android.material.tabs.TabLayoutMediator
 
@@ -15,8 +15,11 @@ class OnBoardingFragment : Fragment(R.layout.fragment_on_boarding) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        requireActivity().setBottomNavigationVisibility(R.id.bottomNavigationView, View.GONE)
+
         val boardList = BoardListProvider.getData(requireContext())
-        val adapter = OnBoardingViewPagerAdapter(boardList, ::onClick)
+        val adapter = OnBoardingViewPagerAdapter(boardList, ::onContinueClick)
         mBinding = FragmentOnBoardingBinding.bind(view).apply {
             viewPager.adapter = adapter
         }
@@ -28,7 +31,7 @@ class OnBoardingFragment : Fragment(R.layout.fragment_on_boarding) {
         }.attach()
     }
 
-    private fun onClick() {
+    private fun onContinueClick() {
         val action = OnBoardingFragmentDirections.actionOnBoardingToMenu()
         findNavController().navigate(action)
     }

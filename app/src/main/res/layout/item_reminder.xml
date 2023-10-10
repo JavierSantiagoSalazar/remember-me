@@ -10,10 +10,7 @@
     android:elevation="50dp"
     app:cardBackgroundColor="#DFDFE5FF"
     app:cardCornerRadius="10dp"
-    app:contentPadding="@dimen/common_padding_min"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@id/tvYourReminders">
+    app:contentPadding="@dimen/common_padding_min">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"

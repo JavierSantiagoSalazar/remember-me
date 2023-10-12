@@ -5,10 +5,10 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.example.rememberme.R
-import com.example.rememberme.Reminder
-import com.example.rememberme.basicDiffUtil
+import com.example.rememberme.common.basicDiffUtil
+import com.example.rememberme.common.inflate
 import com.example.rememberme.databinding.ItemReminderBinding
-import com.example.rememberme.inflate
+import com.example.rememberme.domain.Reminder
 
 class RemindersAdapter :
     ListAdapter<Reminder, RemindersAdapter.ViewHolder>(basicDiffUtil { old, new -> old.id == new.id }) {

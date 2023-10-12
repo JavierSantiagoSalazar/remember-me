@@ -1,7 +1,7 @@
 package com.example.rememberme.reminders
 
 import androidx.lifecycle.ViewModel
-import com.example.rememberme.Reminder
+import com.example.rememberme.domain.Reminder
 
 class RemindersViewModel : ViewModel() {
 

@@ -1,8 +1,8 @@
 package com.example.rememberme.onBoarding
 
 import android.content.Context
-import com.example.rememberme.Board
 import com.example.rememberme.R
+import com.example.rememberme.domain.Board
 
 object BoardListProvider {
 
@@ -11,13 +11,13 @@ object BoardListProvider {
             Board(
                 image = R.drawable.man_thinking,
                 title = context.getString(R.string.on_boarding_title_welcome),
-                description = context.getString(R.string.on_boarding_description_welcome)
+                description = context.getString(R.string.on_boarding_description_welcome),
             ),
             Board(
                 image = R.drawable.developing_man,
                 title = context.getString(R.string.on_boarding_title_enjoy),
-                description = context.getString(R.string.on_boarding_description_enjoy)
-            )
+                description = context.getString(R.string.on_boarding_description_enjoy),
+            ),
         )
     }
 }

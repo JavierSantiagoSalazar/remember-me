@@ -4,12 +4,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.rememberme.Board
 import com.example.rememberme.databinding.BoardItemBinding
+import com.example.rememberme.domain.Board
 
 class OnBoardingViewPagerAdapter(
     private val boardList: List<Board>,
-    private val listener: () -> Unit
+    private val listener: () -> Unit,
 ) : RecyclerView.Adapter<OnBoardingViewPagerAdapter.BoardViewHolder>() {
 
     inner class BoardViewHolder(private val binding: BoardItemBinding) :
@@ -35,8 +35,10 @@ class OnBoardingViewPagerAdapter(
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BoardViewHolder {
         return BoardViewHolder(
             BoardItemBinding.inflate(
-                LayoutInflater.from(parent.context), parent, false
-            )
+                LayoutInflater.from(parent.context),
+                parent,
+                false,
+            ),
         )
     }
 
@@ -45,5 +47,4 @@ class OnBoardingViewPagerAdapter(
     }
 
     override fun getItemCount(): Int = boardList.size
-
 }

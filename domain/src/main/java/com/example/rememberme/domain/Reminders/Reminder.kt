@@ -1,4 +1,4 @@
-package com.example.rememberme.domain
+package com.example.rememberme.domain.Reminders
 
 data class Reminder(
     val id: Int,

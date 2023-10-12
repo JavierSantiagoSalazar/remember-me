@@ -1,4 +1,4 @@
-package com.example.rememberme.settings
+package com.example.rememberme.ui.settings
 
 import androidx.fragment.app.Fragment
 import com.example.rememberme.R

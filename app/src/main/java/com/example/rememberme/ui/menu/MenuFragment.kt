@@ -1,11 +1,11 @@
-package com.example.rememberme.menu
+package com.example.rememberme.ui.menu
 
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import com.example.rememberme.R
-import com.example.rememberme.common.setBottomNavigationVisibility
 import com.example.rememberme.databinding.FragmentMenuBinding
+import com.example.rememberme.ui.common.setBottomNavigationVisibility
 
 class MenuFragment : Fragment(R.layout.fragment_menu) {
 

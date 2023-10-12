@@ -7,7 +7,7 @@
     android:background="@color/white"
     android:paddingHorizontal="@dimen/common_padding_default"
     android:paddingTop="@dimen/common_padding_min"
-    tools:context=".reminders.RemindersFragment">
+    tools:context=".ui.reminders.RemindersFragment">
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:id="@+id/lyHeaders"

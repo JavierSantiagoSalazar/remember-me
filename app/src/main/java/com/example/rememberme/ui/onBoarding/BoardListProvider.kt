@@ -1,8 +1,8 @@
-package com.example.rememberme.onBoarding
+package com.example.rememberme.ui.onBoarding
 
 import android.content.Context
 import com.example.rememberme.R
-import com.example.rememberme.domain.Board
+import com.example.rememberme.domain.onBoarding.Board
 
 object BoardListProvider {
 

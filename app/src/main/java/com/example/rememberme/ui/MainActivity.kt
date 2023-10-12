@@ -1,9 +1,10 @@
-package com.example.rememberme
+package com.example.rememberme.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.NavigationUI
+import com.example.rememberme.R
 import com.example.rememberme.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

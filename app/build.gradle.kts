@@ -28,6 +28,12 @@ android {
                 "proguard-rules.pro",
             )
         }
+        debug {
+            buildConfigField("String", "BASE_URL",  "\"https://api.unsplash.com/\"")
+        }
+        release {
+            buildConfigField("String", "BASE_URL",  "\"https://api.unsplash.com/\"")
+        }
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
@@ -38,6 +44,7 @@ android {
     }
     buildFeatures {
         viewBinding = true
+        buildConfig = true
     }
 }
 
@@ -63,6 +70,17 @@ dependencies {
     // Hilt
     implementation("com.google.dagger:hilt-android:2.48")
     kapt("com.google.dagger:hilt-compiler:2.48")
+
+    // Retrofit and Interceptor
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("com.squareup.okhttp3:logging-interceptor:4.11.0")
+
+    // JavaInject
+    implementation("javax.inject:javax.inject:1")
+
+    // Arrow
+    implementation("io.arrow-kt:arrow-core:1.1.5")
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")

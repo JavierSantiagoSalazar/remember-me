@@ -1,11 +1,11 @@
-package com.example.rememberme.onBoarding
+package com.example.rememberme.ui.onBoarding
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.rememberme.databinding.BoardItemBinding
-import com.example.rememberme.domain.Board
+import com.example.rememberme.domain.onBoarding.Board
 
 class OnBoardingViewPagerAdapter(
     private val boardList: List<Board>,

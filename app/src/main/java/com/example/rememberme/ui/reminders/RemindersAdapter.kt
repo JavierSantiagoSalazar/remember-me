@@ -1,14 +1,14 @@
-package com.example.rememberme.reminders
+package com.example.rememberme.ui.reminders
 
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.example.rememberme.R
-import com.example.rememberme.common.basicDiffUtil
-import com.example.rememberme.common.inflate
 import com.example.rememberme.databinding.ItemReminderBinding
-import com.example.rememberme.domain.Reminder
+import com.example.rememberme.domain.Reminders.Reminder
+import com.example.rememberme.ui.common.basicDiffUtil
+import com.example.rememberme.ui.common.inflate
 
 class RemindersAdapter :
     ListAdapter<Reminder, RemindersAdapter.ViewHolder>(basicDiffUtil { old, new -> old.id == new.id }) {

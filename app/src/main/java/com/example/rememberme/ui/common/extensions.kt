@@ -1,4 +1,4 @@
-package com.example.rememberme.common
+package com.example.rememberme.ui.common
 
 import android.app.Activity
 import android.view.LayoutInflater

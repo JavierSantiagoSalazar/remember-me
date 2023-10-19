@@ -10,4 +10,7 @@ java {
 
 dependencies {
     implementation(project(":domain"))
+
+    // Arrow
+    implementation("io.arrow-kt:arrow-core:1.1.5")
 }

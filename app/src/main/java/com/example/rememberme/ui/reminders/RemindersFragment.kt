@@ -1,4 +1,4 @@
-package com.example.rememberme.reminders
+package com.example.rememberme.ui.reminders
 
 import android.os.Bundle
 import android.view.View

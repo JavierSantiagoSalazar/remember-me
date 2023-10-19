@@ -28,6 +28,12 @@ android {
                 "proguard-rules.pro",
             )
         }
+        debug {
+            buildConfigField("String", "BASE_URL",  "\"https://api.unsplash.com/\"")
+        }
+        release {
+            buildConfigField("String", "BASE_URL",  "\"https://api.unsplash.com/\"")
+        }
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
@@ -38,6 +44,7 @@ android {
     }
     buildFeatures {
         viewBinding = true
+        buildConfig = true
     }
 }
 
@@ -71,6 +78,9 @@ dependencies {
 
     // JavaInject
     implementation("javax.inject:javax.inject:1")
+
+    // Arrow
+    implementation("io.arrow-kt:arrow-core:1.1.5")
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")

@@ -1,4 +1,4 @@
-package com.example.rememberme.data
+package com.example.rememberme.data.photo
 
 import arrow.core.Either
 import com.example.rememberme.domain.Error
